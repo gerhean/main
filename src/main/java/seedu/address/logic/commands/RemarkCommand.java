@@ -72,7 +72,7 @@ public class RemarkCommand extends Command {
     private static Person createEditedPerson(Person personToEdit, Remark remark) {
         assert personToEdit != null;
 
-        return new Person(personToEdit.getName(), personToEdit.getPhone(),
+        return new Person(personToEdit.getName(),
                 personToEdit.getEmail(), personToEdit.getAddress(), personToEdit.getTags(),
                 remark);
     }
